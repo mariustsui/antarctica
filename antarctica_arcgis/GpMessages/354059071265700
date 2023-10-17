@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Monday, 16 October 2023 12:01:18 pm</msg><msg code="539" type="100">ERROR 000539: Traceback (most recent call last):
+  File "&lt;string&gt;", line 3, in CONVER
+ValueError: could not convert string to float: 'NA'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "&lt;expression&gt;", line 1, in &lt;module&gt;
+  File "&lt;string&gt;", line 5, in CONVER
+NameError: name 'null' is not defined
+</msg><msg code="-2147467259" type="100">Failed to execute (CalculateField).</msg><msg code="0" type="3">Failed at Monday, 16 October 2023 12:01:18 pm (Elapsed Time: 0.19 seconds)</msg></messages>
