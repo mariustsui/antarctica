@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Friday, 27 October 2023 11:08:35 am</msg><msg code="0" type="0">Random Seed: 94423</msg><msg code="1605" type="50">WARNING 001605: Distances for Geographic Coordinates (degrees, minutes, seconds) are analyzed using Chordal Distances in meters.</msg><msg code="642" type="50">WARNING 000642: Problems reading 10 of 896 total records.</msg><msg code="848" type="50">WARNING 000848: Features with bad records (only includes first 30): OBJECTID = 25, 59, 127, 206, 528, 529, 579, 751, 752, 753.</msg><msg code="110496" type="50">WARNING 110496: The Spatial Reference Unit is not supported in the Near tool. Meters will be used to calculate distances.</msg><msg code="0" type="0">json:
+{"element": "unorderedlist", "data": ["Cell Size: 0.00"]}</msg><msg code="0" type="0">json:
+[{"element": "table", "data": [["Number of Trees", "300"], ["Leaf Size", "30"], ["Tree Depth Range", "8-18"], ["Mean Tree Depth", "11"], ["% of Training Available per Tree", "100"], ["Number of Randomly Sampled Variables", "2"], ["% of Training Data Excluded for Validation", "10"]], "elementProps": {"striped": "true", "noHeader": true, "title": "Model Characteristics", "0": {"align": "left", "pad": "0px", "wrap": true}, "1": {"align": "right", "pad": "0px", "wrap": true}}}]</msg><msg code="0" type="0">json:
+[{"element": "table", "data": [["Number of Trees", "150", "300"], ["MSE", "62209.295", "61638.007"], ["% of variation explained", "1.401", "2.306"]], "elementProps": {"striped": "true", "noHeader": true, "title": "Model Out of Bag Errors", "0": {"align": "left", "pad": "0px", "wrap": true}, "1": {"align": "right", "pad": "0px", "wrap": true}, "2": {"align": "right", "pad": "0px", "wrap": true}}}]</msg><msg code="0" type="0">json:
+[{"element": "table", "data": [["Variable", "Importance", "%"], ["TANDEMX_CTI", "3901365.44", "21"], ["REL_RELIEF_1000M", "3502618.42", "19"], ["REL_RELIEF_100M", "3269941.88", "17"], ["TANDEMX_SLOPE", "3256204.53", "17"], ["DISTANCE_FMCOAST", "1457220.23", "8"], ["TANDEMX_ASPECT", "1289976.37", "7"], ["TANDEMX_DEM", "1279820.57", "7"], ["RELATIVE_ASPECT", "865679.49", "5"]], "elementProps": {"striped": "true", "title": "Top Variable Importance", "0": {"align": "left", "pad": "0px", "wrap": true}, "1": {"align": "right", "pad": "0px", "wrap": true}, "2": {"align": "right", "pad": "0px", "wrap": true}}}]</msg><msg code="0" type="0">json:
+[{"element": "table", "data": [["R-Squared", "0.490"], ["p-value", "0.000"], ["Standard Error", "0.009"]], "elementProps": {"striped": "true", "noHeader": true, "footnote": ["*Predictions for the data used to train the model compared to the observed categories for those features"], "title": "Training Data: Regression Diagnostics", "0": {"align": "left", "pad": "0px", "wrap": true}, "1": {"align": "right", "pad": "0px", "wrap": true}}}]</msg><msg code="0" type="0">json:
+[{"element": "table", "data": [["R-Squared", "0.016"], ["p-value", "0.239"], ["Standard Error", "0.173"]], "elementProps": {"striped": "true", "noHeader": true, "footnote": ["*Predictions for the test data (excluded from model training) compared to the observed values for those test features"], "title": "Validation Data: Regression Diagnostics", "0": {"align": "left", "pad": "0px", "wrap": true}, "1": {"align": "right", "pad": "0px", "wrap": true}}}]</msg><msg code="0" type="0">
+
+
+Median R2 0.016 was approximately reached at seed 211633</msg><msg code="1" type="100">Traceback (most recent call last):
+  File "&lt;string&gt;", line 11580, in execute
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcToolbox\Scripts\SSForest.py", line 7987, in execute
+    created = rasterWorkFlow(*infoRasterArg)
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcToolbox\Scripts\SSForest.py", line 7854, in rasterWorkFlow
+    rfRun.executeModel(rfTraining, rfTest = rfTest, rasterInfo = None,
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcToolbox\Scripts\SSForest.py", line 5771, in executeModel
+    self.processRasterByParts(rfTest, randSeed, hpar, newSRF)
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcToolbox\Scripts\SSForest.py", line 5433, in processRasterByParts
+    mask = rfTest.loadDataRasterForPredicting(rfTraining, self.infoRasterInstances, i)
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcToolbox\Scripts\SSForest.py", line 250, in loadDataRasterForPredicting
+    dataX, mask = infoRaster.extractZone(indexRange)
+  File "C:\Program Files\ArcGIS\Pro\Resources\ArcToolbox\Scripts\SSForest.py", line 6938, in extractZone
+    dataX = NUM.ones((size, len(self.sourceListRasters)), dtype = float)*NULL
+  File "C:\Program Files\ArcGIS\Pro\bin\Python\envs\arcgispro-py3\lib\site-packages\numpy\core\numeric.py", line 203, in ones
+    a = empty(shape, dtype, order)
+numpy.core._exceptions._ArrayMemoryError: Unable to allocate 508. MiB for an array with shape (8322684, 8) and data type float64
+</msg><msg code="-2147467259" type="100">Failed to execute (Forest).</msg><msg code="0" type="3">Failed at Friday, 27 October 2023 11:08:57 am (Elapsed Time: 22.90 seconds)</msg></messages>
