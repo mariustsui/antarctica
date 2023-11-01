@@ -1,0 +1,676 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "3.1.0",
+  "build" : 41833,
+  "layers" : [
+    "CIMPATH=cyano_coverage/fbcr_predicted_cyano_num_tif.json"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "name" : "FBCR_PREDICTED_CYANO_NUM.tif",
+      "uRI" : "CIMPATH=cyano_coverage/fbcr_predicted_cyano_num_tif.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "FBCR_PREDICTED_CYANO_NUM.tif",
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "elevationSurfaceLayerURI" : "CIMPATH=Map/bdc33ab327be4b7ba46769e487bfb9de.json"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "dataConnection" : {
+        "type" : "CIMStandardDataConnection",
+        "workspaceConnectionString" : "DATABASE=..\\OUTPUT",
+        "workspaceFactory" : "Raster",
+        "dataset" : "FBCR_PREDICTED_CYANO_NUM.tif",
+        "datasetType" : "esriDTAny"
+      },
+      "colorizer" : {
+        "type" : "CIMRasterStretchColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "backgroundColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "colorRamp" : {
+          "type" : "CIMMultipartColorRamp",
+          "colorSpace" : {
+            "type" : "CIMICCColorSpace",
+            "url" : "Default RGB"
+          },
+          "colorRamps" : [
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  247,
+                  244,
+                  249,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  231,
+                  225,
+                  239,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  231,
+                  225,
+                  239,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  212,
+                  185,
+                  218,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  212,
+                  185,
+                  218,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  201,
+                  148,
+                  199,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  201,
+                  148,
+                  199,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  223,
+                  101,
+                  176,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  223,
+                  101,
+                  176,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  231,
+                  41,
+                  138,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  231,
+                  41,
+                  138,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  206,
+                  18,
+                  86,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  206,
+                  18,
+                  86,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  152,
+                  0,
+                  67,
+                  100
+                ]
+              }
+            },
+            {
+              "type" : "CIMLinearContinuousColorRamp",
+              "colorSpace" : {
+                "type" : "CIMICCColorSpace",
+                "url" : "Default RGB"
+              },
+              "fromColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  152,
+                  0,
+                  67,
+                  100
+                ]
+              },
+              "toColor" : {
+                "type" : "CIMRGBColor",
+                "colorSpace" : {
+                  "type" : "CIMICCColorSpace",
+                  "url" : "Default RGB"
+                },
+                "values" : [
+                  103,
+                  0,
+                  31,
+                  100
+                ]
+              }
+            }
+          ],
+          "weights" : [
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125
+          ]
+        },
+        "colorScheme" : "Purple-Red (Continuous)",
+        "customStretchMax" : 1,
+        "gammaValue" : 1,
+        "maxPercent" : 0.5,
+        "minPercent" : 0.5,
+        "standardDeviationParam" : 2,
+        "statsType" : "Dataset",
+        "stretchClasses" : [
+          {
+            "type" : "CIMRasterStretchClass",
+            "label" : "0.00706886",
+            "value" : 0.0070688640698791001
+          },
+          {
+            "type" : "CIMRasterStretchClass",
+            "value" : 452.28246509609494
+          },
+          {
+            "type" : "CIMRasterStretchClass",
+            "label" : "904.558",
+            "value" : 904.55786132812
+          }
+        ],
+        "stretchStats" : {
+          "type" : "StatsHistogram",
+          "min" : 0.0070688640698791001,
+          "max" : 904.55786132812,
+          "mean" : 134.21323085860001,
+          "stddev" : 199.16284914009,
+          "limitMin" : 0.007068864069879055,
+          "limitMax" : 904.557861328125,
+          "histogram" : [
+            0.07690580380068783,
+            0.093736459523369148,
+            0.080690032187864413,
+            0.078209109109398156,
+            0.055421821514879836,
+            0.048397529472360062,
+            0.037696838920400273,
+            0.030372158219182349,
+            0.023951379135777346,
+            0.02092917894729163,
+            0.021656631674262884,
+            0.021054030595720939,
+            0.017804240214267616,
+            0.017040160284287887,
+            0.01609567998098425,
+            0.013399173137092581,
+            0.011303823560835884,
+            0.0092124254670614292,
+            0.0085127091075136076,
+            0.0074210360817464462,
+            0.006841232017525129,
+            0.0058139225621898754,
+            0.0053765238474247504,
+            0.0045011944875603532,
+            0.0044267242407796331,
+            0.0039594614372544853,
+            0.0033861925171384155,
+            0.0031620978663666377,
+            0.0031570825232160996,
+            0.0028914213163330426,
+            0.0027022060974718261,
+            0.0027840473788828825,
+            0.0023908748718997771,
+            0.0020940577454451946,
+            0.0019416217096879255,
+            0.0018514215230259724,
+            0.0015939672412983417,
+            0.0014329443301469692,
+            0.0012281511514999903,
+            0.0011067950452665115,
+            0.0010418235544527204,
+            0.0010105156547857239,
+            0.00099835724714805556,
+            0.00099440576466581316,
+            0.00092259516955583358,
+            0.00090063404576029484,
+            0.00085428011664168363,
+            0.00081674103306038218,
+            0.00080078312303594223,
+            0.00076392794988425954,
+            0.00075245345267620993,
+            0.00068945770310353989,
+            0.00061354364541584721,
+            0.00059302633252728161,
+            0.00055913477123728061,
+            0.0005446206721198138,
+            0.00051194495159357972,
+            0.00052683900094972356,
+            0.00051703628479185342,
+            0.00050404198662909515,
+            0.00047964918130602273,
+            0.00046422320161573077,
+            0.00044104623705642517,
+            0.00043504302328532639,
+            0.00043983039629265835,
+            0.00042508832703198527,
+            0.00042379649622048299,
+            0.00048884397708200958,
+            0.00057524466135719138,
+            0.00060054934725308894,
+            0.00057060926844533023,
+            0.00056080655228745997,
+            0.00058299564622620503,
+            0.00056126249257387262,
+            0.00063786046069118417,
+            0.00065222257971318017,
+            0.00061058003355416552,
+            0.00064933495789923389,
+            0.0006503988185675299,
+            0.00059895355625064499,
+            0.00067137207174250803,
+            0.0006935611656812531,
+            0.00078854872535053834,
+            0.00097434439206366022,
+            0.00087001005652291726,
+            0.00087487341957798474,
+            0.00077471853666269039,
+            0.00071605421981093978,
+            0.00078421729262961892,
+            0.00072623688620748717,
+            0.00074477845785493168,
+            0.00072851658763954999,
+            0.00087525336981666188,
+            0.00080017520265405876,
+            0.002223316816643158,
+            0.002994995751396431,
+            0.002813759487547435,
+            0.0025860173144843564,
+            0.0024354050398727378,
+            0.0019094779194958394,
+            0.0022568284276944816,
+            0.0022884402875524199,
+            0.0020464879755628163,
+            0.0018092470465328097,
+            0.0019440533912154594,
+            0.0020926899245859568,
+            0.0024365448905887695,
+            0.0032399876652954517,
+            0.0038963896976340804,
+            0.0030946946940253127,
+            0.002135472321461003,
+            0.0018673794330504123,
+            0.0017744436046699837,
+            0.0017547621823065078,
+            0.0019853159871357968,
+            0.0022681509448070603,
+            0.0019227761778495393,
+            0.0019617590723378141,
+            0.0023117692322071962,
+            0.0018279405982757251,
+            0.0016402451803692174,
+            0.0018944318900442248,
+            0.0020364572892617398,
+            0.0020761240941796336,
+            0.0019711058482092718,
+            0.0022639714921816119,
+            0.0019076541583501892,
+            0.001925891769806692,
+            0.0016031620370743284,
+            0.001443202986591252,
+            0.0014433549666867231,
+            0.0012586231606418971,
+            0.0013767116948227524,
+            0.0015670667644000001,
+            0.0014340841808630008,
+            0.0018704190349598294,
+            0.0021296210877853748,
+            0.0016806718857644651,
+            0.0014322604197173504,
+            0.0016707171895111242,
+            0.002250293283589235,
+            0.0050837341935001459,
+            0.0052833600489011158,
+            0.003207919865151101,
+            0.0033335314140577636,
+            0.0037767813624985163,
+            0.0018071953152439531,
+            0.0019812885146058192,
+            0.0016346979068845311,
+            0.0013037612489967415,
+            0.0015769454706056057,
+            0.0042638015784348757,
+            0.0058665836652705269,
+            0.0030762291124256038,
+            0.0050604052488453692,
+            0.0045151766563436722,
+            0.0020714127112200368,
+            0.0020492996073290274,
+            0.0019138853422644942,
+            0.0014748148464491903,
+            0.0014789942990746387,
+            0.0017189708698231211,
+            0.0055978828564780527,
+            0.0025054678638848026,
+            0.0039335488309767044,
+            0.0044809051448149936,
+            0.0040406188082359228,
+            0.0016487560657155855,
+            0.0012352182259393852,
+            0.0014148586987859375,
+            0.0015099222485029581,
+            0.001282408045583086,
+            0.00085541996735771515,
+            0.00084348952986325288,
+            0.0014723831649216565,
+            0.0010469148876509941,
+            0.002007885031313219,
+            0.0012963142243186693,
+            0.0017409319936186598,
+            0.0011982110726922316,
+            0.00060738845154927751,
+            0.00076947522336894578,
+            0.00048299274340638155,
+            0.00054446869202434299,
+            0.00057980406422131702,
+            0.00072403317482315976,
+            0.00057874020355302102,
+            0.00061263176484302202,
+            0.00052782687157028416,
+            0.00068945770310353989,
+            0.00069135745429692568,
+            0.00041452571039676074,
+            0.00046042369922895941,
+            0.0002789594652367569,
+            0.0002831389178622054,
+            0.00030327628051209391,
+            0.00021619168580729319,
+            0.00020342535778774125,
+            0.00017629691074619338,
+            0.00015441177699839008,
+            0.00020426124831283098,
+            0.00014050559826280672,
+            0.00016535434387229174,
+            0.00038466162163673748,
+            0.00052638306066331102,
+            0.00033587601099059259,
+            0.00019286274115251674,
+            0.00023116172521117255,
+            0.00012910709110249249,
+            0.00019362264162987102,
+            0.00020821273079507324,
+            0.00010319448482471148,
+            0.0001038024052065949,
+            6.4971490813791097e-05,
+            0.00011170537017107943,
+            0.00010152270377453205,
+            6.2995749572669968e-05,
+            6.6643271863970523e-05,
+            2.7204437089283291e-05,
+            4.1870516302220931e-05,
+            4.3010367018252354e-05,
+            3.2371760335292406e-05,
+            7.4774206971661339e-05,
+            0.00013222268305964504,
+            4.9013580789351182e-05,
+            5.083734193500146e-05,
+            5.7220505944777425e-05,
+            4.0578685490718649e-05,
+            1.8009641313296481e-05,
+            3.4499481671884395e-05,
+            3.0244038998700418e-05,
+            2.9484138521346135e-05,
+            2.7052456993812436e-05,
+            3.8298984058655808e-05,
+            1.2766328019551936e-05,
+            4.8633630550674037e-06,
+            1.2082417589933082e-05,
+            2.5836616230045585e-06,
+            2.6596516707399866e-06,
+            6.3831640097759681e-06,
+            6.763114248453109e-06,
+            3.2675720526234121e-06,
+            4.635392911861119e-06,
+            3.7995023867714092e-06,
+            1.2158407637668509e-06,
+            7.5990047735428186e-07,
+            5.3193033414799727e-07,
+            1.5198009547085637e-07,
+            2.2797014320628456e-07,
+            4.5594028641256913e-07,
+            6.0792038188342547e-07,
+            0,
+            3.0396019094171273e-07,
+            0,
+            7.5990047735428183e-08,
+            7.5990047735428183e-08
+          ],
+          "nsamples" : 13159618,
+          "resolution" : 3.5472580096629613
+        },
+        "stretchType" : "PercentMinimumMaximum"
+      }
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
+  "elevationSurfaceLayerDefinitions" : [
+    {
+      "type" : "CIMElevationSurfaceLayer",
+      "name" : "Ground",
+      "uRI" : "CIMPATH=Map/bdc33ab327be4b7ba46769e487bfb9de.json",
+      "useSourceMetadata" : true,
+      "description" : "Ground",
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : false,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "elevationMode" : "BaseGlobeSurface",
+      "verticalExaggeration" : 1,
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          100
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth"
+    }
+  ]
+}
